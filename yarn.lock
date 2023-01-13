@@ -803,6 +803,11 @@
     "@unhead/schema" "1.0.15"
     hookable "^5.4.2"
 
+"@vercel/analytics@^0.1.8-beta.0":
+  version "0.1.8-beta.0"
+  resolved "https://registry.yarnpkg.com/@vercel/analytics/-/analytics-0.1.8-beta.0.tgz#6f05ca84d12121f16de21383027a67aa1a6d3977"
+  integrity sha512-uOhEwbc93VzTPUwkn5hOqVYR9RsYO7lGiybkNqbsQlUheb8j7w55vnccEcH6xYL8swFBzB2Moh9nhsjvCRlv5g==
+
 "@vercel/nft@^0.22.1":
   version "0.22.6"
   resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.22.6.tgz#edb30d300bb809c0945ea4c7b87e56f634885541"
