@@ -1,10 +1,25 @@
 <template>
   <section class="bg-gray-900 text-white">
-    <div class="mx-auto max-w-screen-xl px-4 py-14 lg:flex min-h-fit lg:items-center">
+    <div class="flex justify-center pt-4">
+          <video controls autoplay>
+            <!-- muted -->
+              <!-- <source src="/media/cc0-videos/flower.webm" type="video/webm"> -->
+
+              <source src="/zubeen-gard-hyderbad-2023.mp4" type="video/mp4">
+
+              Download the
+              <!-- <a href="/media/cc0-videos/flower.webm">WEBM</a> -->
+              <!-- or -->
+              <a href="/zubeen-gard-hyderbad-2023.mp4">MP4</a>
+              video.
+          </video>
+        </div>
+    <div class="mx-auto max-w-screen-xl px-4 pb-14 pt-4 lg:flex min-h-fit lg:items-center">
       <div class="mx-auto max-w-3xl text-center">
+
         <h1
           class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
-          ZUBEEN GARG FAN CLUB of HYDERABD
+          ZUBEEN GARG FAN CLUB of HYDERABAD
 
           <span class="sm:block text-2xl"> WELCOMES YOU. </span>
         </h1>
