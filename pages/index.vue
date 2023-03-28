@@ -1,7 +1,7 @@
 <template>
   <section class="bg-gray-900 text-white">
-    <div class="flex justify-center pt-4">
-          <video controls autoplay>
+    <div class="flex justify-center pt-1">
+          <video controls autoplay class="bg-gradient-to-r from-red-500 via-purple-500 to-blue-500 p-2">
             <!-- muted -->
               <!-- <source src="/media/cc0-videos/flower.webm" type="video/webm"> -->
 
