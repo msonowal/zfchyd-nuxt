@@ -1,7 +1,7 @@
 <template>
   <section class="bg-gray-900 text-white">
-    <div class="flex justify-center pt-1">
-          <video controls autoplay class="bg-gradient-to-r from-red-500 via-purple-500 to-blue-500 p-2">
+    <div class="flex justify-center">
+          <video controls autoplay class="bg-gradient-to-r from-red-500 via-purple-500 to-blue-500  animate-border-gradient duration-2000 border-4 border-white">
             <!-- muted -->
               <!-- <source src="/media/cc0-videos/flower.webm" type="video/webm"> -->
 
@@ -21,7 +21,7 @@
           class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
           ZUBEEN GARG FAN CLUB of HYDERABAD
 
-          <span class="sm:block text-2xl"> WELCOMES YOU. </span>
+          <span class="sm:block text-2xl"> Inviting You. </span>
         </h1>
 
         <h2
@@ -29,10 +29,10 @@
           Join Us on 7th April 2023
           <br>
 
-          <span class="sm:block text-4xl md:text-6xl"> Zubeen Night</span>
+          <span class="sm:block text-4xl md:text-6xl font-bold pt-4"> বসন্ত উৎসৱ </span>
         </h2>
 
-        <p class="mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed">
+        <p class="mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed italic">
           Watch this space, for more information!
         </p>
 
@@ -67,7 +67,7 @@
         <h2 class="text-3xl font-bold mb-4">Event Details</h2>
         <p class="text-lg mb-4"><strong>Date:</strong> Friday, April 7, 2023</p>
         <p class="text-lg mb-4"><strong>Time:</strong> 7:00 PM onwards</p>
-        <p class="text-lg mb-4"><strong>Location:</strong> Shilparam, Hitech City</p>
+        <p class="text-lg mb-4"><strong>Location:</strong> Shilparam, Rock height ground, Hitech City</p>
         <a href="tel:7989823144"
           class="bg-red-600 text-white rounded-full py-2 px-8 text-lg font-semibold hover:bg-red-700 transition duration-300">
           <!-- Buy Tickets Now -->
@@ -95,9 +95,25 @@
 
 <script setup lang="ts">
 useServerSeoMeta({
-  title: 'Zubeen Garg Fan Club Hyderabad 7th April 2023',
-  description: 'Bohag Bihu Celebration in Hyderabad on 7th April 2023',
-  ogImage: '/bg.png',
+  title: 'Zubeen Garg Fan Club Hyderabad Celebrating বসন্ত উৎসৱ 7th April 2023.',
+  description: 'Zubeen garg Fan Club Hyderabad" are going to celebrate "বসন্ত উৎসৱ" On 7th april 2023, we invite you all to join us in the celebration, Get your tickets NOW as we have limited seats.',
+  ogImage: 'https://www.zfchyd.com/zubeen.png',
 })
 
 </script>
+
+<style>
+@keyframes border-gradient {
+  0% {
+    border-image-slice: 1;
+  }
+
+  100% {
+    border-image-slice: 2;
+  }
+}
+
+.animate-border-gradient {
+  animation: border-gradient linear infinite;
+}
+</style>
