@@ -45,7 +45,8 @@
         </a> -->
 
           <a class="block w-full rounded border border-yellow-600 bg-gradient-to-r from-red-600 to-yellow-400 px-12 py-3 text-sm font-medium text-white hover:bg-yellow-600 focus:outline-none focus:ring active:bg-yellow-500 sm:w-auto"
-            href="tel:7989823144">
+            href="tel:9347197076">
+            <!-- href="tel:7989823144"> -->
             Call US
           </a>
         </div>
@@ -68,7 +69,7 @@
         <p class="text-lg mb-4"><strong>Date:</strong> Friday, April 7, 2023</p>
         <p class="text-lg mb-4"><strong>Time:</strong> 7:00 PM onwards</p>
         <p class="text-lg mb-4"><strong>Location:</strong> Shilparam, Rock height ground, Hitech City</p>
-        <a href="tel:7989823144"
+        <a href="tel:9347197076"
           class="bg-red-600 text-white rounded-full py-2 px-8 text-lg font-semibold hover:bg-red-700 transition duration-300">
           <!-- Buy Tickets Now -->
           Call for Tickets
@@ -88,8 +89,10 @@
     </div>
   </div>
 
+  <AddressMap/>
+
   <div class="container mx-auto px-4 pt-12 text-center">
-    <p> Technology powered by <a href="https://claritytech.io" class="text-indigo-600"> claritytech.io</a> </p>
+    <p> Technology powered by <a href="https://claritytech.io" target="_blank" class="text-indigo-600"> CLARITYTECH.io</a> </p>
   </div>
 </template>
 
